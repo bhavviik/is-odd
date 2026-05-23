@@ -1,13 +1,2 @@
 # is-odd
-include `is-odd.js` in your website:
-```html
-<script src="is-odd.js" defer>
-```
-...then simply call the "isOdd()" function!
-```js
-console.log(isOdd(2)); // returns false
-```
-it's that simple! (¬‿¬)
-
-> [!NOTE]
-> you might be interested in the new, JIT compiled version, [is-odd-jit](https://github.com/ascpixi/is-odd-jit)! 
+Drop `<script src="is-odd.js" defer></script>` into your page, then call `isOdd()` anywhere you like — e.g. `isOdd(2)` returns `false`, `isOdd(3)` returns `true`, it's that simple! (¬‿¬) Craving more speed? Check out the JIT-compiled sibling [is-odd-jit](https://github.com/ascpixi/is-odd-jit)!
